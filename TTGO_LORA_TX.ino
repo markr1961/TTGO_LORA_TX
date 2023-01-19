@@ -75,9 +75,9 @@ void setup() {
     while (1)
       ; // loop forever
   }
-  Serial.println("LoRa Initializing OK!");
+  Serial.println("LoRa Initialized OK!");
   display.setCursor(0,10);
-  display.print("LoRa Initializing OK!");
+  display.print("LoRa Initialized OK!");
   display.display();
   delay(2000);
 }
